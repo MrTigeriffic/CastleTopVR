@@ -5,30 +5,30 @@ VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_
 (Filename:  Line: 1028)
 
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
-    Vendor:   NVIDIA
-    VRAM:     2016 MB
-    Driver:   21.21.13.7653
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8171 MB
+    Driver:   27.20.12031.1000
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.VR.dll (this message is harmless)
-Loading C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
-- Completed reload, in  0.093 seconds
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\oran.chadwick\Documents\Showcase\CastleTop\CastleTowerTop_UT\FireBasket_UT\Builds\CastleScene_Data\Managed\System.dll (this message is harmless)
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.022 seconds
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\Repo\Unity\CastleTopVR\CastleScene_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+desktop: 1920x1080 144Hz; virtual: 3840x1080 at 0,0
 <RI> Initialized touch support.
 VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_PathRegistryNotFound: "Installation path could not be located (110)"!
  
@@ -38,9 +38,11 @@ VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_
  
 (Filename:  Line: 1028)
 
-UnloadTime: 0.980442 ms
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 3ac4 -> priority: 1 
-  Thread -> id: 3e84 -> priority: 1 
-  Thread -> id: 396c -> priority: 1 
-  Thread -> id: 3290 -> priority: 1 
+UnloadTime: 0.902900 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 2538 -> priority: 1 
+  Thread -> id: 3a6c -> priority: 1 
+  Thread -> id: ca4 -> priority: 1 
+  Thread -> id: 2308 -> priority: 1 
+  Thread -> id: 2db8 -> priority: 1 
+  Thread -> id: 399c -> priority: 1 
